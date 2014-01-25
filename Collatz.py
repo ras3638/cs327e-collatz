@@ -41,22 +41,20 @@ def collatz_eval (i, j) :
     cycle = []
     max_cycle = []
     for x in range(i,j+1):
-        print "X1 is " + str(x)
         while (x):    
             if x ==1:             
                 cycle.append(x)
-                print cycle
-                print "Cycle length is " + str(len(cycle))
                 max_cycle.append(len(cycle))
-                cycle[:] = []
-              
+                cycle[:] = []   
                 break               
-            if x%2 ==1:         
+            elif x%2 ==1:         
                 cycle.append(x)
-                x = 3 *x +1             
-            else:             
+                cycle.append(0)
+                x = x + (x>>1) + 1  
+            else:
                 cycle.append(x)
-                x = x/2
+                x=x>>1           
+  
     v = max(max_cycle)
     assert(v > 0)
     return v

@@ -12,11 +12,11 @@
 
 def collatz_read (r, a) :
     """
-reads two ints into a[0] and a[1]
-r is a reader
-a is an array of int
-return true if that succeeds, false otherwise
-"""
+    reads two ints into a[0] and a[1]
+    r is a  reader
+    a is an array of int
+    return true if that succeeds, false otherwise
+    """
     s = r.readline()
     if s == "" :
         return False
@@ -31,14 +31,14 @@ return true if that succeeds, false otherwise
 
 def collatz_eval (i, j) :
     """
-i is the beginning of the range, inclusive
-j is the end of the range, inclusive
-return the max cycle length in the range [i, j]
-"""
+    i is the beginning of the range, inclusive
+    j is the end       of the range, inclusive
+    return the max cycle length in the range [i, j]
+    """
     assert(i > 0)
     assert(j > 0)
     # <your code>
-    v = 1
+    v = 3
     assert(v > 0)
     return v
 
@@ -48,12 +48,12 @@ return the max cycle length in the range [i, j]
 
 def collatz_print (w, i, j, v) :
     """
-prints the values of i, j, and v
-w is a writer
-i is the beginning of the range, inclusive
-j is the end of the range, inclusive
-v is the max cycle length
-"""
+    prints the values of i, j, and v
+    w is a writer
+    i is the beginning of the range, inclusive
+    j is the end       of the range, inclusive
+    v is the max cycle length
+    """
     w.write(str(i) + " " + str(j) + " " + str(v) + "\n")
 
 # -------------
@@ -62,10 +62,10 @@ v is the max cycle length
 
 def collatz_solve (r, w) :
     """
-read, eval, print loop
-r is a reader
-w is a writer
-"""
+    read, eval, print loop
+    r is a reader
+    w is a writer
+    """
     a = [0, 0]
     while collatz_read(r, a) :
         i, j = a

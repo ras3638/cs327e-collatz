@@ -8,9 +8,9 @@
 
 """
 To test the program:
-% python TestCollatz.py > TestCollatz.out
-% chmod ugo+x TestCollatz.py
-% TestCollatz.py > TestCollatz.out
+    % python TestCollatz.py > TestCollatz.out
+    % chmod ugo+x TestCollatz.py
+    % TestCollatz.py > TestCollatz.out
 """
 
 # -------
@@ -37,7 +37,7 @@ class TestCollatz (unittest.TestCase) :
         b = collatz_read(r, a)
         i, j = a
         self.assertTrue(b == True)
-        self.assertTrue(i == 1)
+        self.assertTrue(i ==  1)
         self.assertTrue(j == 10)
 
     # ----

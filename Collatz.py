@@ -92,7 +92,7 @@ def collatz_print (w, i, j, v) :
     v is the max cycle length
     """
     w.write(str(i) + " " + str(j) + " " + str(v) + "\n")
-    print "testing"
+  
 
 # -------------
 # collatz_solve

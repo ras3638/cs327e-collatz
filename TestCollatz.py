@@ -32,7 +32,7 @@ class TestCollatz (unittest.TestCase) :
     # ----
 
     def test_read (self) :
-        r = io.StringIO("1 10\n")
+        r = io.BytesIO("1 10\n")
         a = [0, 0]
         b = collatz_read(r, a)
         i, j = a
@@ -65,7 +65,7 @@ class TestCollatz (unittest.TestCase) :
     # -----
 
     def test_print (self) :
-        w = io.StringIO()
+        w = io.BytesIO()
         collatz_print(w, 1, 10, 20)
         self.assertTrue(w.getvalue() == "1 10 20\n")
 
@@ -74,8 +74,8 @@ class TestCollatz (unittest.TestCase) :
     # -----
 
     def test_solve (self) :
-        r = io.StringIO("1 10\n100 200\n201 210\n900 1000\n")
-        w = io.StringIO()
+        r = io.BytesIO("1 10\n100 200\n201 210\n900 1000\n")
+        w = io.BytesIO()
         collatz_solve(r, w)
         self.assertTrue(w.getvalue() == "1 10 20\n100 200 125\n201 210 89\n900 1000 174\n")
 

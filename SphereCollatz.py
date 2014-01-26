@@ -1,5 +1,37 @@
 #!/usr/bin/env python3
 
+# ------------------------------
+# projects/collatz/RunCollatz.py
+# Copyright (C) 2014
+# Glenn P. Downing
+# -------------------------------
+
+"""
+To run the program
+    % python RunCollatz.py < RunCollatz.in > RunCollatz.out
+    % chmod ugo+x RunCollatz.py
+    % RunCollatz.py < RunCollatz.in > RunCollatz.out
+
+To document the program
+    % pydoc -w Collatz
+"""
+
+# -------
+# imports
+# -------
+
+import sys
+
+from Collatz import collatz_solve
+
+# ----
+# main
+# ----
+
+collatz_solve(sys.stdin, sys.stdout)
+
+#!/usr/bin/env python
+
 # ---------------------------
 # projects/collatz/Collatz.py
 # Copyright (C) 2014
@@ -38,42 +70,37 @@ def collatz_eval (i, j) :
     assert(i > 0)
     assert(j > 0)
     
-    if j<i:
-        i,j = j,i
-          
     max_cycle = []
-    cycle_length = 0
-    start_length = j>>1
-    
-    if i < start_length :
-        for x in range(start_length ,j+1):
+    counter = 0
+    m = j>>1
+    if i < m:
+        for x in range(m,j+1):
             while (x):    
                 if x ==1:             
-                    cycle_length +=1
-                    max_cycle.append(cycle_length)
-                    cycle_length = 0 
+                    counter +=1
+                    max_cycle.append(counter)
+                    counter = 0 
                     break               
                 elif x%2 ==1:         
-                    cycle_length += 2
+                    counter += 2
                     x = x + (x>>1) + 1  
                 else:
-                    cycle_length += 1
+                    counter += 1
                     x=x>>1   
     else:
         for x in range(i,j+1):
             while (x):    
                 if x ==1:             
-                    cycle_length +=1
-                    max_cycle.append(cycle_length)
-                    cycle_length = 0 
+                    counter +=1
+                    max_cycle.append(counter)
+                    counter = 0 
                     break               
                 elif x%2 ==1:         
-                    cycle_length += 2
+                    counter += 2
                     x = x + (x>>1) + 1  
                 else:
-                    cycle_length += 1
+                    counter += 1
                     x=x>>1           
-          
   
     v = (max(max_cycle))
     assert(v > 0)

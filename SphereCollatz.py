@@ -29,6 +29,7 @@ from Collatz import collatz_solve
 # ----
 
 collatz_solve(sys.stdin, sys.stdout)
+sys.exit(0)
 
 #!/usr/bin/env python
 
@@ -124,7 +125,7 @@ def collatz_print (w, i, j, v) :
     v is the max cycle length
     """
     w.write(str(i) + " " + str(j) + " " + str(v) + "\n")
-    print "testing"
+    
 
 # -------------
 # collatz_solve

@@ -30,8 +30,6 @@ def collatz_read (r, a) :
 # ------------
 
 def collatz_eval (i, j) :
-    
-
     """
     i is the beginning of the range, inclusive
     j is the end       of the range, inclusive
@@ -39,8 +37,7 @@ def collatz_eval (i, j) :
     """
     assert(i > 0)
     assert(j > 0)
-
-
+    
     max_cycle = []
     counter = 0
     m = j>>1
@@ -73,9 +70,8 @@ def collatz_eval (i, j) :
                     counter += 1
                     x=x>>1           
   
-    v = max(max_cycle)
+    v = (max(max_cycle))
     assert(v > 0)
-    
     return v
 
 # -------------

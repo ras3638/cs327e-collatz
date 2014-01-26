@@ -21,7 +21,6 @@ To document the program
 # -------
 
 import sys
-import time
 
 from Collatz import collatz_solve
 
@@ -29,7 +28,4 @@ from Collatz import collatz_solve
 # main
 # ----
 
-startTime = time.time()  
 collatz_solve(sys.stdin, sys.stdout)
-elapsedTime = time.time() - startTime
-print "Time Elapsed " + str(elapsedTime) + " seconds"

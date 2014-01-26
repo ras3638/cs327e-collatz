@@ -233,7 +233,6 @@ class TestCollatz (unittest.TestCase) :
         collatz_solve(r, w)
         self.assertTrue(w.getvalue() == "7 10 20\n10 7 20\n150000 10000 375\n11 17 18\n")
         print("Done.")
-        print("Done.")
 
 # ----
 # main

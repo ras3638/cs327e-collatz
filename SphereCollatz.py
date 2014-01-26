@@ -70,37 +70,42 @@ def collatz_eval (i, j) :
     assert(i > 0)
     assert(j > 0)
     
+    if j<i:
+        i,j = j,i
+          
     max_cycle = []
-    counter = 0
-    m = j>>1
-    if i < m:
-        for x in range(m,j+1):
+    cycle_length = 0
+    start_length = j>>1
+    
+    if i < start_length :
+        for x in range(start_length ,j+1):
             while (x):    
                 if x ==1:             
-                    counter +=1
-                    max_cycle.append(counter)
-                    counter = 0 
+                    cycle_length +=1
+                    max_cycle.append(cycle_length)
+                    cycle_length = 0 
                     break               
                 elif x%2 ==1:         
-                    counter += 2
+                    cycle_length += 2
                     x = x + (x>>1) + 1  
                 else:
-                    counter += 1
+                    cycle_length += 1
                     x=x>>1   
     else:
         for x in range(i,j+1):
             while (x):    
                 if x ==1:             
-                    counter +=1
-                    max_cycle.append(counter)
-                    counter = 0 
+                    cycle_length +=1
+                    max_cycle.append(cycle_length)
+                    cycle_length = 0 
                     break               
                 elif x%2 ==1:         
-                    counter += 2
+                    cycle_length += 2
                     x = x + (x>>1) + 1  
                 else:
-                    counter += 1
+                    cycle_length += 1
                     x=x>>1           
+      
   
     v = (max(max_cycle))
     assert(v > 0)

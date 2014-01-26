@@ -1,55 +1,12 @@
 #!/usr/bin/env python3
 
-# ------------------------------
-# projects/collatz/RunCollatz.py
-# Copyright (C) 2014
-# Glenn P. Downing
-# -------------------------------
-
-"""
-To run the program
-    % python RunCollatz.py < RunCollatz.in > RunCollatz.out
-    % chmod ugo+x RunCollatz.py
-    % RunCollatz.py < RunCollatz.in > RunCollatz.out
-
-To document the program
-    % pydoc -w Collatz
-"""
-
-# -------
-# imports
-# -------
-
 import sys
 
 from Collatz import collatz_solve
 
-# ----
-# main
-# ----
-
-collatz_solve(sys.stdin, sys.stdout)
-sys.exit(0)
-
-#!/usr/bin/env python
-
-# ---------------------------
-# projects/collatz/Collatz.py
-# Copyright (C) 2014
-# Glenn P. Downing
-# ---------------------------
-
-# ------------
-# collatz_read
-# ------------
 
 def collatz_read (r, a) :
-    """
-    reads two ints into a[0] and a[1]
-    r is a  reader
-    a is an array of int
-    return true if that succeeds, false otherwise
-    """
+
     s = r.readline()
     if s == "" :
         return False
@@ -58,16 +15,9 @@ def collatz_read (r, a) :
     a[1] = int(l[1])
     return True
 
-# ------------
-# collatz_eval
-# ------------
+
 
 def collatz_eval (i, j) :
-    """
-    i is the beginning of the range, inclusive
-    j is the end       of the range, inclusive
-    return the max cycle length in the range [i, j]
-    """
     assert(i > 0)
     assert(j > 0)
     
@@ -112,33 +62,19 @@ def collatz_eval (i, j) :
     assert(v > 0)
     return v
 
-# -------------
-# collatz_print
-# -------------
 
 def collatz_print (w, i, j, v) :
-    """
-    prints the values of i, j, and v
-    w is a writer
-    i is the beginning of the range, inclusive
-    j is the end       of the range, inclusive
-    v is the max cycle length
-    """
-    w.write(str(i) + " " + str(j) + " " + str(v) + "\n")
-    
 
-# -------------
-# collatz_solve
-# -------------
+    w.write(str(i) + " " + str(j) + " " + str(v) + "\n")
 
 def collatz_solve (r, w) :
-    """
-    read, eval, print loop
-    r is a reader
-    w is a writer
-    """
+
     a = [0, 0]
     while collatz_read(r, a) :
         i, j = a
         v = collatz_eval(i, j)
         collatz_print(w, i, j, v)
+
+collatz_solve(sys.stdin, sys.stdout)
+
+

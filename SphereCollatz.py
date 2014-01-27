@@ -110,12 +110,6 @@ w is a writer
         collatz_print(w, i, j, v)
 
 
-# -------
-# imports
-# -------
-
-import sys
-
 
 # ----
 # main

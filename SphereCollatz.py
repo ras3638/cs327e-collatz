@@ -37,42 +37,33 @@ return the max cycle length in the range [i, j]
 """
     assert(i > 0)
     assert(j > 0)
+    
     if j<i:
         i,j = j,i
 
+    m = j >>1
     max_cycle = []
     cycle_length = 0
-    start_length = j>>1
-
-    if i < start_length :
-        for x in range(start_length ,j+1):
-            while (x):
-                if x ==1:
-                    cycle_length +=1
-                    max_cycle.append(cycle_length)
-                    cycle_length = 0
-                    break
-                elif x%2 ==1:
-                    cycle_length += 2
-                    x = x + (x>>1) + 1
-                else:
-                    cycle_length += 1
-                    x=x>>1
+    
+    if i < m:
+        start_length = m
     else:
-        for x in range(i,j+1):
-            while (x):
-                if x ==1:
-                    cycle_length +=1
-                    max_cycle.append(cycle_length)
-                    cycle_length = 0
-                    break
-                elif x%2 ==1:
-                    cycle_length += 2
-                    x = x + (x>>1) + 1
-                else:
-                    cycle_length += 1
-                    x=x>>1
+        start_length = i
+    
 
+    for x in range(start_length ,j+1):
+        while (x):    
+            if x ==1:             
+                cycle_length +=1
+                max_cycle.append(cycle_length)
+                cycle_length = 0 
+                break               
+            elif x%2 ==1:         
+                cycle_length += 2
+                x = x + (x>>1) + 1  
+            else:
+                cycle_length += 1
+                x=x>>1   
 
     v = (max(max_cycle))
 
@@ -110,6 +101,7 @@ w is a writer
         collatz_print(w, i, j, v)
 
 
+import sys
 
 # ----
 # main

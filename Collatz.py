@@ -74,7 +74,9 @@ def collatz_eval_helper (i,j):
                     cycle_length += 1
                     x >>= 1
 
-    return max_cycle_list
+    v = max(max_cycle_list)
+    assert (v > 0)
+    return v
 
 
 # ------------
@@ -105,16 +107,16 @@ def collatz_eval(i, j):
 
     if counter:
         reduced_list = max(reduced_cache_list,key=lambda item: item[1] - item[0])
-        max_cycle_list + reduced_list[2]
-        max_cycle_list + collatz_eval_helper(i, reduced_list[0])
-        max_cycle_list + collatz_eval_helper(reduced_list[1] + 1, j+1)
+        max_cycle_list += reduced_list[2]
+        max_cycle_list += collatz_eval_helper(i, reduced_list[0])
+        max_cycle_list += collatz_eval_helper(reduced_list[1] + 1, j+1)
         v = (max(max_cycle_list))
         max_cycle_length_cache.append([i, j, v])
         assert(v > 0)
         return v
 
     else:
-        v = (max(collatz_eval_helper(start_length, j+1)))
+        v = (collatz_eval_helper(start_length, j+1))
         max_cycle_length_cache.append([i, j, v])
         assert(v > 0)
         return v

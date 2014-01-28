@@ -20,7 +20,7 @@ To test the program:
 import io
 import unittest
 
-from Collatz import collatz_read, collatz_eval, collatz_print, collatz_solve
+from Collatz import collatz_read, collatz_eval, collatz_print, collatz_solve, collatz_eval_helper, collatz_eval_startLength
 
 # -----------
 # TestCollatz 
@@ -142,6 +142,24 @@ class TestCollatz (unittest.TestCase) :
         v = collatz_eval(99, 100)
         self.assertTrue(v == 26)
 
+    # -----
+    # eval_helper
+    # -----
+
+    def test_eval_helper1 (self) :
+        #Corner test for test_eval_helper
+        v = collatz_eval_startLength(1,20)
+        self.assertTrue(v == 10)
+
+    def test_eval_helper2 (self) :
+        #Corner test for test_eval_helper
+        v = collatz_eval_startLength(3,6)
+        self.assertTrue(v == 3)
+
+    def test_eval_helper3 (self) :
+        #Corner test for test_eval_helper
+        v = collatz_eval_startLength(100, 900)
+        self.assertTrue(v == 450)
 
     # -----
     # print

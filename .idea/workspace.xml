@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/SphereCollatz.py" line="121" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0c71bfc5-f846-4526-8cba-06f76e6dd5fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RunCollatz.in" afterPath="$PROJECT_DIR$/RunCollatz.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collatz.py" afterPath="$PROJECT_DIR$/Collatz.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SphereCollatz.py" afterPath="$PROJECT_DIR$/SphereCollatz.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCollatz.py" afterPath="$PROJECT_DIR$/TestCollatz.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cs327e-collatz.iws" />
@@ -27,13 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SphereCollatz.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SphereCollatz.py">
+      <file leaf-file-name="SphereCollatz2.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SphereCollatz2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="6" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.61625284" vertical-offset="1767" max-vertical-offset="2210">
-              <folding>
-                <element signature="e#2397#2407#0" expanded="true" />
-              </folding>
+            <state line="107" column="7" selection-start="0" selection-end="2399" vertical-scroll-proportion="0.3261391" vertical-offset="1683" max-vertical-offset="2227">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,34 +43,16 @@
       <file leaf-file-name="Collatz.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collatz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="786" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1989">
+            <state line="45" column="23" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="2686">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunCollatz.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RunCollatz.in">
+      <file leaf-file-name="SphereCollatz.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SphereCollatz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="999" column="11" selection-start="11756" selection-end="11756" vertical-scroll-proportion="0.0" vertical-offset="16412" max-vertical-offset="17085">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunCollatz.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RunCollatz.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="15" selection-start="201" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="629">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunCollatz.out" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RunCollatz.out">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="509" column="0" selection-start="7998" selection-end="7998" vertical-scroll-proportion="0.0" vertical-offset="8653" max-vertical-offset="17102">
+            <state line="81" column="0" selection-start="1784" selection-end="1784" vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="3247">
               <folding />
             </state>
           </provider>
@@ -77,17 +61,10 @@
       <file leaf-file-name="TestCollatz.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCollatz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="32" selection-start="1978" selection-end="1978" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="4216">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collatz.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collatz.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <folding />
+            <state line="149" column="13" selection-start="3563" selection-end="3563" vertical-scroll-proportion="0.0" vertical-offset="2422" max-vertical-offset="4522">
+              <folding>
+                <element signature="e#334#343#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,18 +87,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/TestCollatz.py" />
-        <option value="$PROJECT_DIR$/Collatz.py" />
         <option value="$PROJECT_DIR$/RunCollatz.out" />
         <option value="$PROJECT_DIR$/RunCollatz.in" />
         <option value="$USER_HOME$/.PyCharm30/system/python_stubs/-1571908645/builtins.py" />
+        <option value="$PROJECT_DIR$/SphereCollatz2.py" />
         <option value="$PROJECT_DIR$/SphereCollatz.py" />
+        <option value="$PROJECT_DIR$/Collatz.py" />
+        <option value="$PROJECT_DIR$/TestCollatz.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
-    <option name="y" value="13" />
+    <option name="x" value="639" />
+    <option name="y" value="45" />
     <option name="width" value="1400" />
     <option name="height" value="832" />
   </component>
@@ -183,6 +161,11 @@
       <console-settings />
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Robert\Desktop\cs327e-collatz" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.SphereCollatz">
     <configuration default="false" name="SphereCollatz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,6 +180,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cs327e-collatz" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SphereCollatz.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SphereCollatz2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cs327e-collatz" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SphereCollatz2.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -323,12 +324,14 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.SphereCollatz" />
+      <item index="1" class="java.lang.String" itemvalue="Python.SphereCollatz2" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Python.SphereCollatz" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SphereCollatz2" />
       </list>
     </recent_temporary>
   </component>
@@ -342,18 +345,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="13" width="1400" height="832" extended-state="0" />
-    <editor active="false" />
+    <frame x="639" y="45" width="1400" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6709585" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21604046" sideWeight="0.63376254" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3662375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -373,21 +376,14 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SphereCollatz.py">
+    <entry file="file://$PROJECT_DIR$/Collatz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="6" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
-          <folding>
-            <element signature="e#2397#2407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RunCollatz.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1000" column="0" selection-start="13730" selection-end="13730" vertical-scroll-proportion="0.0" vertical-offset="17000" max-vertical-offset="17119">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
@@ -420,37 +416,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SphereCollatz.py">
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1571908645/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="6" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2516">
-          <folding>
-            <element signature="e#2397#2407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCollatz.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="673" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCollatz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="32" selection-start="1978" selection-end="1978" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="4216">
+        <state line="487" column="4" selection-start="18308" selection-end="18308" vertical-scroll-proportion="0.33283803" vertical-offset="8055" max-vertical-offset="95574">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collatz.html">
+    <entry file="file://$PROJECT_DIR$/RunCollatz.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="999" column="11" selection-start="11756" selection-end="11756" vertical-scroll-proportion="0.8484398" vertical-offset="16412" max-vertical-offset="17085" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RunCollatz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="201" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+        <state line="0" column="0" selection-start="0" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
@@ -462,33 +442,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RunCollatz.in">
+    <entry file="file://$PROJECT_DIR$/TestCollatz.out">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="999" column="11" selection-start="11756" selection-end="11756" vertical-scroll-proportion="0.0" vertical-offset="16412" max-vertical-offset="17085">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1571908645/builtins.py">
+    <entry file="file://$PROJECT_DIR$/Collatz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="487" column="4" selection-start="18308" selection-end="18308" vertical-scroll-proportion="0.33283803" vertical-offset="8055" max-vertical-offset="95574">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collatz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="786" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1989">
+        <state line="45" column="23" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="2686">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SphereCollatz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="6" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.61625284" vertical-offset="1767" max-vertical-offset="2210">
+        <state line="81" column="0" selection-start="1784" selection-end="1784" vertical-scroll-proportion="0.0" vertical-offset="1147" max-vertical-offset="3247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCollatz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="13" selection-start="3563" selection-end="3563" vertical-scroll-proportion="0.0" vertical-offset="2422" max-vertical-offset="4522">
           <folding>
-            <element signature="e#2397#2407#0" expanded="true" />
+            <element signature="e#334#343#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SphereCollatz2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="7" selection-start="0" selection-end="2399" vertical-scroll-proportion="0.3261391" vertical-offset="1683" max-vertical-offset="2227">
+          <folding />
         </state>
       </provider>
     </entry>

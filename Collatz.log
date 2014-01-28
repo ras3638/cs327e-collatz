@@ -1,0 +1,137 @@
+commit c4493192816e6ac768d7dfc8d4665fc76ac0d396
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Tue Jan 28 17:19:44 2014 -0600
+
+    Used pydoc to document interface
+
+commit b024592123bbed3bcc5990ea84f60905295d4307
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Tue Jan 28 02:40:38 2014 -0600
+
+    Added cache to Collatz.py. Added some corner tests for new functions
+
+commit 54fd08f7651f12909b3c8ce3653d1b122d03ccc9
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Mon Jan 27 13:23:33 2014 -0600
+
+    Shorten code and made it more clear
+
+commit d0f9826ea8989d0e2e9e664393682de14bcc5dda
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Mon Jan 27 12:31:57 2014 -0600
+
+    Fixed SphereCollatz.py by removing import statement. Issue Runetime Error (NZEC)
+
+commit 961daab14b2a58c5f72ea56bbd908ee11c128aaa
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sun Jan 26 12:35:03 2014 -0600
+
+    Fixed SphereCollatz
+
+commit edfcf9fd34253b5cefeeb618947cc4ecd9a8c3bc
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sun Jan 26 03:00:08 2014 -0600
+
+    Changed testcollatz.py. Deleted extra print statement
+
+commit 118e11038508878bb3fca001b8d2a7ff3b637e63
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sun Jan 26 02:48:54 2014 -0600
+
+    added random acceptance tests
+
+commit a644c1cbdf4be5d9e439c4897b12640b3f768420
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sun Jan 26 00:23:37 2014 -0600
+
+    Remove TestCollatz.py.out
+
+commit c55ec7f4b05d9595b5346a62d5e80a2ebd024b5e
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sun Jan 26 00:18:23 2014 -0600
+
+    Added test cases to TestCollatz and to RunCollatz
+
+commit 6ab0f24b39e552e4831a66b06c18a120c5586021
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sun Jan 26 00:13:38 2014 -0600
+
+    Added test cases for TestCollatz
+
+commit c75eb92dd572ebba647c077cb40d8346063f31ad
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 22:34:42 2014 -0600
+
+    Removed print statment
+
+commit 2159ddea07004444a1392f5b3c33d4715fe149d7
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 22:29:20 2014 -0600
+
+    Fixed SphereCollatz
+
+commit 485b74589651f264085a8e50b35b86ce4eec4b9f
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 22:14:43 2014 -0600
+
+    Sixth iterative run. Added proper input range and renamed variables
+
+commit 69b6d6a04efa9e04f3afb0c8927622ca6dc649c6
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 18:00:42 2014 -0600
+
+    Added TestColaltz.out. 3 faiilure cases
+
+commit c793bd6eea7c394ede7bc24250a2d5233addd87a
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 17:17:12 2014 -0600
+
+    Fifth iterative run. Implemented varied range for effeciency. Also added timer
+
+commit 703aab59c8e74963af2b5a9a643989bb531f7af4
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 17:10:13 2014 -0600
+
+    Fourth iterative run. Used a counter instead of a data structure to for effeciency.
+
+commit e46bc76d1c1604be14a7385a17d0a8b559d20b1c
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 17:02:51 2014 -0600
+
+    Third iterative run. Used bit operations for faster time
+
+commit 56ba044e28831884380357052fec6af109b827d5
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 17:00:41 2014 -0600
+
+    Second iterative run. Took out print statements
+
+commit 6b76f6652a2a2af651c980c9502b25e15e6c9159
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 16:56:35 2014 -0600
+
+    First iterative run attempt
+
+commit ae3bf8da57e8290c8ea87cc13c6325944771923c
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 16:48:38 2014 -0600
+
+    Added other skeleton code
+
+commit f76b5e9357c1e8340c0068bd4b685e889c339ad8
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 16:22:02 2014 -0600
+
+    Added RunCollatz.in and empty RunCollatz.out
+
+commit 56254d8ab261efbdde2fae60b13e9c4fc9c8f1a8
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 16:16:55 2014 -0600
+
+    Collatz.py skeleton code did not push properly
+
+commit 18ed3846ee942010629c3d19546dce754a7c39df
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Jan 25 16:10:25 2014 -0600
+
+    Pushing code skeleton to private repo
